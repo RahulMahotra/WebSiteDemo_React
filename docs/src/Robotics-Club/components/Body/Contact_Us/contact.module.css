@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100&family=Source+Code+Pro:wght@900&display=swap");
+
+.contactcont {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 10px #1da1f2; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  padding-right: 30px;
+}
+
+.formgroup {
+  border-bottom: 3px solid colour !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 20px;
+  right: 50%;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.input,
+.input:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.outercont {
+  background-color: #05386b;
+}
+
+.contactheading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px;
+}
+
+.telegram {
+  font-size: 70px;
+  color: #1da1f2;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  text-shadow: 1px 6px rgba(255, 0, 0, 0.5);
+}
+
+.contactimg {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.mainhead {
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 736px) {
+  .contactcont {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+    box-shadow: 3px 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  .contactimg {
+    margin-top: 0px;
+    height: 288px;
+    margin-left: 40px;
+  }
+}

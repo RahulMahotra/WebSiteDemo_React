@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.head {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 5px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-family: "Acme", sans-serif;
+}
+
+.innerCont {
+  background-color: white;
+}
+
+.coordinatorbackground {
+  background-image: url("../images/cardimage.jpg");
+}
